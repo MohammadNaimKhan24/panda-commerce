@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+body {
+    font-family: 'RocknRoll One', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-size: 14px;
+    color: #777;
+}
+
+.container {
+    margin-bottom: 100px;
+}
+
+.bg-orange {
+    background-color: #fceae8;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.carousel-item {
+    padding: 20px 40px;
+}
+
+.carousel-item p {
+    font-size: 12px;
+}
+
+.price {
+    color: #FF136F;
+}
+
+.buy-now-button {
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.cat1,
+.cat2,
+.cat3 {
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+.cat1 {
+    background-color: orange;
+}
+
+.cat2 {
+    background-color: orchid;
+}
+
+.cat3 {
+    background-color: blue;
+}
+
+.categories h1 {
+    color: white;
+}
+
+.categories img {
+    width: 100px;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgray;
+}
+
+.card-footer {
+    background-color: white;
+    border-top: none;
+}
+
+.subscribe {
+    width: 60%;
+}
+
+.subscribe h6 {
+    color: gray;
+}
+
+footer {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.footer-text {
+    font-size: 10px;
+    color: #777;
+}
+
+@media(max-width: 768px) {
+    .subscribe {
+        width: 100%;
+    }
+    p {
+        font-size: 10px;
+    }
+    .footer-text {
+        font-size: 6px;
+    }
+}
